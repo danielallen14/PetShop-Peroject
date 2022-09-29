@@ -1,0 +1,38 @@
+﻿@model IEnumerable<PetShop.Data.Model.Animal>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Mamoka pet shop</h1>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>
+                    @Html.DisplayFor(m=> item.Name)
+                </th>
+                <th>
+                    @Html.DisplayFor(m=>  item.Description)
+                </th>
+                <th>
+                    <img src= "@item.PhotoUrl" Width="30%" Height="30%"/>
+                </th>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,14 @@
+C:\Users\Danie\OneDrive\שולחן העבודה\.net Project\PetShop\PetShop.Data\bin\Debug\net6.0\PetShop.Data.deps.json
+C:\Users\Danie\OneDrive\שולחן העבודה\.net Project\PetShop\PetShop.Data\bin\Debug\net6.0\PetShop.Data.runtimeconfig.json
+C:\Users\Danie\OneDrive\שולחן העבודה\.net Project\PetShop\PetShop.Data\bin\Debug\net6.0\PetShop.Data.dll
+C:\Users\Danie\OneDrive\שולחן העבודה\.net Project\PetShop\PetShop.Data\bin\Debug\net6.0\PetShop.Data.pdb
+C:\Users\Danie\OneDrive\שולחן העבודה\.net Project\PetShop\PetShop.Data\obj\Debug\net6.0\PetShop.Data.csproj.AssemblyReference.cache
+C:\Users\Danie\OneDrive\שולחן העבודה\.net Project\PetShop\PetShop.Data\obj\Debug\net6.0\PetShop.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danie\OneDrive\שולחן העבודה\.net Project\PetShop\PetShop.Data\obj\Debug\net6.0\PetShop.Data.AssemblyInfoInputs.cache
+C:\Users\Danie\OneDrive\שולחן העבודה\.net Project\PetShop\PetShop.Data\obj\Debug\net6.0\PetShop.Data.AssemblyInfo.cs
+C:\Users\Danie\OneDrive\שולחן העבודה\.net Project\PetShop\PetShop.Data\obj\Debug\net6.0\PetShop.Data.csproj.CoreCompileInputs.cache
+C:\Users\Danie\OneDrive\שולחן העבודה\.net Project\PetShop\PetShop.Data\obj\Debug\net6.0\PetShop.Data.dll
+C:\Users\Danie\OneDrive\שולחן העבודה\.net Project\PetShop\PetShop.Data\obj\Debug\net6.0\refint\PetShop.Data.dll
+C:\Users\Danie\OneDrive\שולחן העבודה\.net Project\PetShop\PetShop.Data\obj\Debug\net6.0\PetShop.Data.pdb
+C:\Users\Danie\OneDrive\שולחן העבודה\.net Project\PetShop\PetShop.Data\obj\Debug\net6.0\PetShop.Data.genruntimeconfig.cache
+C:\Users\Danie\OneDrive\שולחן העבודה\.net Project\PetShop\PetShop.Data\obj\Debug\net6.0\ref\PetShop.Data.dll

@@ -1,0 +1,74 @@
+﻿@model PetShop.Client.AnimalCommentViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Animal</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.animal!.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.animal!.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.animal!.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.animal!.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.animal!.BirthDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.animal!.BirthDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.animal!.PhotoUrl)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.animal!.PhotoUrl)
+            @* <img src= "@model.PhotoUrl" Width="30%" Height="30%"/>*@
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.animal!.Category)
+        </dt>
+        <dd class="col-sm-10">
+            CommentId
+        </dd>
+        @* <dd class="col-sm-10">
+            <input type="text" name="reply" style="width:100%; height=100px; font-size:20px; margin-top:10px" />
+            <button onsubmit = asp-action = "AddComment" asp-route-id="">Add comment</button>
+            <br />
+            @*<input type="hidden" name="CID" value="@Html.DisplayNameFor(model => model.Comments)"/>*@
+        </dd>
+        <dd class="col-sm-10">
+            <form method="post" asp-action="Upload_Comment" asp-route-animalID="@Model.animal.AnimalId">
+                <div class="form-group">
+                    <br />
+                    <br />
+                    <label for="fname">Comment:</label><br>
+                    <textarea class="form-control" id="CommentId" name="comment" rows="3"></textarea>
+                    <input class="btn btn-primary" type="submit" value="Submit" />
+                </div>
+            </form>
+
+        </dd>
+        @foreach (var item in @ViewBag.Comments)
+        {
+            <div>
+                <label> Comment: </label> @item.Content
+            </div>
+        }
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.animal?.AnimalId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+
